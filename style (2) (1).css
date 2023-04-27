@@ -1,0 +1,77 @@
+html {
+    background-color: #9e9e9efa;
+}
+
+header {
+    background-color: #5f8690fa;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    font-size: 30px;
+}
+
+.cabeçalho2 {
+    width: 30%;
+}
+
+.seção1 {
+    width: 15%;
+    padding: 0px 50px 0px 50px;
+}
+
+.H22 {
+    display: flex;
+    font-size: 30px;
+
+}
+
+.H23 {
+    display: inline-block;
+    padding: 30px;
+}
+
+.fotoprojeto {
+    width: 40%;
+    padding: 0px 50px;
+
+}
+
+#proje {
+    margin: 25px 90px;
+    text-align: center;
+    display: flex;
+    font-size: 25px;
+}
+
+#equi {
+    text-align: center;
+
+}
+
+.nomes1 {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 22% 22% 23%;
+
+}
+
+.textofoto {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 22% 22% 23%;
+    font-size: 25px;
+}
+
+.tituloequipe {
+    font-size: 40px;
+}
+
+footer {
+
+    text-align: center;
+    background-color: #5f8690fa;
+}
