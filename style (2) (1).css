@@ -21,11 +21,11 @@ header {
     padding: 0px 50px 0px 50px;
 }
 
-.H22 a{
+.H22 a {
     display: flex;
     font-size: 30px;
     text-decoration: none;
-color: white;
+    color: black;
 }
 
 .H23 {
