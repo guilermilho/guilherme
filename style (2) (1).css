@@ -22,7 +22,7 @@ header {
 }
 
 .H22 a {
-    display: flex;
+    display: block;
     font-size: 30px;
     text-decoration: none;
     color: black;
