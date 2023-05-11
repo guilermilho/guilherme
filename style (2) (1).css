@@ -22,16 +22,17 @@ header {
 }
 
 .H22 a {
-    display: block;
+    display: flex;
     font-size: 30px;
     text-decoration: none;
     color: black;
-    text-align: center;
+
 }
 
 .H23 {
     display: inline-block;
     padding: 30px;
+    text-align: center;
 }
 
 .fotoprojeto {
