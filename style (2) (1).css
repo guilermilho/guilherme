@@ -8,7 +8,7 @@ header {
     align-items: center;
     justify-content: center;
     display: grid;
-    grid-template-columns:10% 10% 80%;
+    grid-template-columns: 33% 33% 33%;
     font-size: 30px;
 }
 
