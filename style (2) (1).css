@@ -30,9 +30,10 @@ header {
 }
 
 .H23 {
-    display: inline-block;
+    display: grid;
     padding: 30px;
     text-align: center;
+    grid-template-columns: 33% 33% 33%;
 }
 
 .fotoprojeto {
