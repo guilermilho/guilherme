@@ -31,7 +31,7 @@ header {
 
 .H23 {
     display: grid;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     grid-template-columns: 33% 33% 33%;
 }
