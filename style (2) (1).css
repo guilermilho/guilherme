@@ -13,7 +13,7 @@ header {
 }
 
 .cabeçalho2 {
-    width: 50%;
+    width: 45%;
 }
 
 .seção1 {
@@ -26,7 +26,7 @@ header {
     font-size: 30px;
     text-decoration: none;
     color: black;
-
+    text-align: center;
 }
 
 .H23 {
