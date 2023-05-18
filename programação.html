@@ -24,8 +24,149 @@
     <section id="proje">
         <div>
             <h2>Programação</h2>
-            <h3>Tags mais utilizadas:
+            <h3>Tags mais utilizadas:</h3>
                 <p> html - Se encontra no começo e final do código limitando-o</p>
+                <p>head-definir o começo e o fim do cabeçalho de um documento HTML, a qual também contém informações
+                    gerais sobre o documento, incluindo títulos e links.</p>
+                <p>meta -Essa tag traz dados básicos sobre o documento, como autor e data de criação.
+                </p>
+                <p>body-Indica para o navegador o corpo do documento HTML, ou seja, a parte principal da página web.
+                    Essa tag é acompanhada de outros elementos, sendo os mais comuns:
+                </p>
+                <p>bgcolor, que define o conteúdo de fundo na codificação #RGBGBB;
+                    background, que permite utilizar uma imagem;
+                    text, que define a cor do texto principal;
+                    link, que define a cor dos links da página;
+                    vlink, que define a cor de links que já foram visitados pelo usuário;
+                    alink marca a cor de links ativados pelo usuário.</p>
+                    <p>
+                    section-
+                         é utilizada para definir seções em um documento, separando conteúdos como capítulos, artigos, cabeçalhos e etc.</p>
+                        
+                        <p>article></article>
+                        
+                        Tag que define um conteúdo independente e completo de outros, artigos com conteúdos que fazem sentido por si só.</p>
+        
+        
+                       <p>div-
+                       
+                        Tag que funciona como um contêiner e define um bloco inteiro de conteúdo. Muito útil para organizar elementos na página web.</p>
+                        
+                        
+                         <p>title-
+                        
+                        Define o título do documento HTML. Esse é o nome que é exibido no topo da janela do navegador quando a página é aberta.</p>
+                        
+                         <p>nav-
+                        
+                        A tag é usada para representar uma seção com conjunto links de navegação, dentro do documento atual ou para outro documento.</p>
+                        
+                        <p> HTML de título</p>
+                        <p><.h1><./h1>,  <.h2><./h2>, <.h3><./h3>, <.h4><./h4>, <.h5><./h5>, <.h6><./h6> 
+                        
+                        Definem o tamanho do título do documento, sendo <.h1> de maior valor hierárquico e <.6> de menor valor hierárquico.</p>
+                        
+                        
+                        
+                        
+                        <h3> Tags HTML de texto</h3>
+                        
+                        
+                        
+                         <p>p-
+                        Define o começo e o fim de um parágrafo. Pode ser utilizado ao lado de align para indicar o alinhamento do trecho.</p>
+                        
+                         <p>i e u -
+                        
+                        Tag i formata textos em itálico e a tag u em sublinhado. Ambas requerem abertura e fechamento com o conteúdo entre elas.</p>
+                        
+                         <p>br-
+                    
+                        Tags utilizadas para quebra de linha em um texto. É mais comum a utilização da tag fechada <./br> pois ela é suportada tanto em HTML quanto XHTML.</p>
+                        
+                        
+                        
+                         <p>strong-
+                        Tag utilizada para representar uma parte do texto que seja importante pois o texto fica em negrito no navegador web.</p>
+                        
+                        <p>font-
+                         apesar de não ser compatível com HTML5 como visto na imagem acima, é utilizada no HTML para definir o estilo da fonte para o texto </p> 
+                        
+                         <.span><./span>
+                        Tag utilizada para agrupar elementos para fins de estilo, porém só deve ser usado quando não houver outra alternativa de elemento semântico.
+                        
+                        
+                        
+                        Tag de link HTML 
+                        
+                        
+                         <.a><./a>
+                        Cria um link e atribui elementos a ele, como:
+                        
+                        href: vincula a URL do documento a algo;
+                        name: o nome âncora;
+                        target: identifica se o link deve ser aberto na mesma janela, em nova aba ou nova janela;
+                        rel: aponta os tipos de link que avançam;
+                        rev: define os links que podem reverter uma ação;
+                        acesskey: para atribuir uma tecla a um comando;
+                        shape e coords: para uso com formas de objetos;
+                        tabindex: determina a ordem das guias que são exibidas para o usuário;
+                        onclick: define um evento JavaScript para o click no item;
+                        onmouseover: define um evento JavaScript caso o usuário passe com o ponteiro do mouse em cima do item;
+                        onmouseout: define um evento JavaScript caso o ponteiro do mouse saia do item.
+                        Tags HTML de multimídia
+                        1. Tag <.img/>
+                        Tag img
+                        A tag <.img> permite inserir imagens na página web e não possui fechamento, contendo apenas atributos nela.
+                        
+                         <.audio><./audio
+                        Tag <.audio> é utilizada para definir sons como música ou outros tipos de áudio. O HTML5 suporta mp3, onda e ogg.
+                        
+                         <video></video>
+                        A tag <.video> é usada para importação de arquivos de vídeo. HTML suporta três formatos de vídeos compatíveis com essa tag (mp4, webM e ogg).
+                        
+                        
+                        
+                        Tags HTML de listas 
+                        
+                        
+                        
+                         <.ol><./ol>
+                        Cria listas ordenadas. Deve ser acompanhado de start, para indicar o começo da lista e type, para apontar o tipo de caractere que será ordenado.
+                        
+                         <.ul><./ul>
+                        Cria listas não ordenadas. Precisa do type para apontar o tipo de item que fará parte da lista.
+                        
+                         <.li><./li>
+                        Os elementos <.li><./li> define cada item da lista, que fazem parte de listas ordenadas ou não ordenadas.
+                        
+                        
+                        
+                        Tag HTML de comentário
+                         <.!– –>
+                        Tag HTML de comentário
+                        Essa tag cria um comentário em qualquer parte do código-fonte. Útil para orientar pessoas em modificações futuras. Ou para relembrar sobre como cada linha funciona.
+                        
+                        Tag HTML de estilos e scripts
+                         <.style><./style>
+                        Tag style
+                        Essa tag define o estilo de parte ou de todo o conteúdo da página web com arquivo .css importado.
+                        
+                         <.script><./script>
+                        
+                        Tag utilizada para a importação de um documento Javascript para interações do lado cliente com conteúdo dinâmico.
+                        
+                        
+                        
+                        Tag HTML para recebimento de dados
+                        
+                        
+                        1. <.input type=”text”>, <.input type=”email”>, <.input type=”Submit”>
+                        Tags do tipo input
+                        Tags do tipo <input> são utilizadas para o recebimento de dados do usuário, possuindo diferença entre elas como o tipo do atributo que irá receber (type).
+                        
+                        Quer saber mais sobre o HTML e como essa linguagem é utilizada na internet? Então confira já o nosso guia sobre o tema!
+                        
 
         </div>
         </p>
