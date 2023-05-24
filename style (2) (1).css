@@ -147,5 +147,5 @@ input[type=submit]{
     border-radius: 15px;
 }
 .mensagem{
- align-items: center;
+   align-content: center;
 }
