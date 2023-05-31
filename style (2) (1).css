@@ -101,9 +101,6 @@ footer {
 .field{
     width: 100%;
     margin: 15px 0;
-    display: grid;
-    grid-template-columns: 50% 50%;
-
 }
 .field label, 
 .field span{
