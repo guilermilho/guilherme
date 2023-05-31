@@ -93,6 +93,7 @@ footer {
 .formulario{
     padding: 30px;
     border:1px solid #9e9e9efa;
+    background-color: #757575;
 }
 .formulario p{
     width: 100%;
