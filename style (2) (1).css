@@ -150,3 +150,6 @@ input[type=submit]{
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
 }
+.bloco{
+    padding-right: 10px;
+}
