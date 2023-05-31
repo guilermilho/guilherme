@@ -148,3 +148,9 @@ input[type=submit]{
     text-align: center;
     border-radius: 15px;
 }
+.bloco1{
+    display: flex;
+}
+.bloco{
+    flex: 1;
+}
