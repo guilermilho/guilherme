@@ -12,11 +12,7 @@ header {
     font-size: 30px;
 }
 
-.banner{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
+
 
 .cabeçalho2 {
     width: 45%;
