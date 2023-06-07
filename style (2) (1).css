@@ -12,6 +12,12 @@ header {
     font-size: 30px;
 }
 
+.banner{
+    background: var(--azul-degrade);
+    color: var(--branco);
+    text-align: center;
+}
+
 .cabeçalho2 {
     width: 45%;
 }
