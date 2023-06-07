@@ -13,14 +13,10 @@ header {
 }
 
 .banner{
-    background: var(--azul-degrade);
-    color: var(--branco);
-    text-align: center;
+    background-color: #757575;
 }
 
-.banner__pesquisa{
-    align-items: center;
-}
+
 
 .cabeçalho2 {
     width: 45%;
