@@ -12,11 +12,9 @@ header {
     font-size: 30px;
 }
 
-.banner{
-    background-color: #757575;
+.banner__pesquisa{
+ background-color: #5f8690fa;
 }
-
-
 
 .cabeçalho2 {
     width: 45%;
