@@ -177,3 +177,11 @@ input[type=submit]{
 .bloco{
     padding-right: 10px;
 }
+
+.funcoes {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+
+}
