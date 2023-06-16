@@ -183,5 +183,5 @@ input[type=submit]{
     justify-content: center;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-
+    text-align: center;
 }
