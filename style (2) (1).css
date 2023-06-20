@@ -64,7 +64,7 @@ header {
 
 }
 
-#proje {
+.proje {
     margin: 25px 90px;
     text-align: center;
     display: flex;
