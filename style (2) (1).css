@@ -197,13 +197,11 @@ input[type=submit]{
     font-size: 30px;
 }
 .slider {
-    text-align: center;
-    display: block;
-    height: 293px;
-    width: 600px;
-    margin: auto;
-    margin-top: 20px;
-    position: relative;
+    height: 390px;
+    display: flex;
+    justify-content: center;
+}
+    
 }
 
 .slider li {
