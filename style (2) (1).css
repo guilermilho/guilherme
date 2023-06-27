@@ -197,11 +197,10 @@ input[type=submit]{
     font-size: 30px;
 }
 .slider {
-    height: 390px;
+
     display: flex;
     justify-content: center;
-}
-    
+    height: 390px;
 }
 
 .slider li {
