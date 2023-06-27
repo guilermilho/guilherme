@@ -190,3 +190,9 @@ input[type=submit]{
     text-align: center;
     font-size: 20px;
 }
+#proje {
+    margin: 25px 90px;
+    text-align: center;
+    display: flex;
+    font-size: 30px;
+}
