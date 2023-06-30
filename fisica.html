@@ -48,107 +48,113 @@
             <h2>Projeto 2°trimestre</h2>
             <p>
                 int ledRed = 6; // Pino do LED vermelho dos carros
-                
+                </p>
+                <p>
                 int ledYellow = 7; // Pino do LED amarelo dos carros
-
+            </p>
+            <p>
                 int ledGreen = 8; // Pino do LED verde dos carros
                 int button = 9; // Pino do botão
-
+            </p>
+            <p>
                 int buzzer = 10; // Pino do buzzer
-                
+            </p>
+            <p>
                 int pedestrianRed = 1; // Pino do LED vermelho do pedestre
-
+            </p>
+            <p>
                 int pedestrianGreen = 13; // Pino do LED verde do pedestre
-                
+            </p>
+            <p>
                 int value = 0; // Variável para armazenar o valor lido do botão
-                
+            </p>
                 void greenCars() {
                   digitalWrite(ledRed, LOW); // Desliga o LED vermelho dos carros
-
+                </p>
                   digitalWrite(ledYellow, LOW); // Desliga o LED amarelo dos carros
-
+                </p>
                   digitalWrite(ledGreen, HIGH); // Liga o LED verde dos carros
-
+                </p>
                   digitalWrite(pedestrianRed, HIGH); // Liga o LED vermelho do pedestre
-
+                </p>
                   digitalWrite(pedestrianGreen, LOW); // Desliga o LED verde do pedestre
                 }
-                
+            </p>
                 void yellowCars() {
                   digitalWrite(ledRed, LOW); // Desliga o LED vermelho dos carros
-
+                </p>
                   digitalWrite(ledGreen, LOW); // Desliga o LED verde dos carros
-
+                </p>
                   for (int i = 0; i < 11; i++) {
                     digitalWrite(ledYellow, HIGH); // Liga o LED amarelo dos carros
-
+                </p>
                     delay(300);
-
+                </p>
                     digitalWrite(ledYellow, LOW); // Desliga o LED amarelo dos carros
-
+                </p>
                     delay(300);
                   }
                 }
-                
+            </p>
                 void redCars() {
                   digitalWrite(ledYellow, LOW); // Desliga o LED amarelo dos carros
-
+                </p>
                   digitalWrite(ledRed, HIGH); // Liga o LED vermelho dos carros
-
+                </p>
                   digitalWrite(pedestrianRed, LOW); // Desliga o LED vermelho do pedestre
-
+                </p>
                   digitalWrite(pedestrianGreen, HIGH); // Liga o LED verde do pedestre
-
+                </p>
                   for (int i = 0; i < 20; i++) {
                     tone(buzzer, 500); // Ativa o buzzer com frequência de 500Hz
-
+                </p>
                     delay(200);
-
+                </p>
                     noTone(buzzer); // Desativa o buzzer
-
+                </p>
                     delay(100);
                   }
                   for (int i = 0; i < 11; i++) {
                     digitalWrite(pedestrianGreen, HIGH); // Liga o LED verde do pedestre
-
+                </p>
                     tone(buzzer, 1000); // Ativa o buzzer com frequência de 1000Hz
-
+                </p>
                     delay(300);
-
+                </p>
                     digitalWrite(pedestrianGreen, LOW); // Desliga o LED verde do pedestre
-
+                </p>
                     noTone(buzzer); // Desativa o buzzer
-
+                </p>
                     delay(300);
                   }
                 }
-                
+            </p>
                 void setup() {
                   pinMode(button, INPUT); // Define o pino do botão como entrada
-
+                </p>
                   pinMode(ledRed, OUTPUT); // Define o pino do LED vermelho dos carros como saída
-
+                </p>
                   pinMode(ledYellow, OUTPUT); // Define o pino do LED amarelo dos carros como saída
-
+                </p>
                   pinMode(ledGreen, OUTPUT); // Define o pino do LED verde dos carros como saída
-
+                </p>
                   pinMode(buzzer, OUTPUT); // Define o pino do buzzer como saída
-
+                </p>
                   pinMode(pedestrianRed, OUTPUT); // Define o pino do LED vermelho do pedestre como saída
-
+                </p>
                   pinMode(pedestrianGreen, OUTPUT); // Define o pino do LED verde do pedestre como saída
                 }
-                
+            </p>
                 void loop() {
                   greenCars(); // Chama a função para os carros ficarem com o sinal verde
-
+                </p>
                   value = digitalRead(button); // Lê o estado do botão
-
+                </p>
                   if (value == HIGH) {
                     yellowCars(); // Chama a função para os carros ficarem com o sinal amarelo
-
+                </p>
                     redCars(); // Chama a função para os carros ficarem com o sinal vermelho
-
+                </p>
                     value == LOW; // Reseta o estado do botão
                   }
                 }
