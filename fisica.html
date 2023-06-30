@@ -22,13 +22,13 @@
     </header>
     <section>
         <h2 class="tituf">Funções</h2>
-    <div class="funcoes">
-        <p>Programador: Guilherme</p>
-        <p>Conferente: Mahara</p>
-        <p>Montador: Ana</p>
-        <p>Relator: João</p>
-    </div>
-</section>
+        <div class="funcoes">
+            <p>Programador: Guilherme</p>
+            <p>Conferente: Mahara</p>
+            <p>Montador: Ana</p>
+            <p>Relator: João</p>
+        </div>
+    </section>
     <section class="proje">
         <div>
             <h2>Projeto 1°trimestre</h2>
@@ -41,28 +41,54 @@
         </div>
 
         <img class="fotoprojeto" src=".\fotoprojeto.jpg" alt="fotodoprojeto">
-    </section>  
-   
+    </section>
+
     <section class="proje">
         <div>
-            <h2>Projetos 2°trimestre</h2>
-
+            <h2>Projeto 2°trimestre</h2>
             <p>
-                No segundo trimestre nós aprendemos a funcionabilidade do push button. Nós fizemos um circuito onde o
-                led poderia ficaria ligando enquanto pressionamos o pussh button, e ao soltarmos ele desligaria.
-            </p>
+                int ledRed = 6; // Pino do LED vermelho dos carros
+                int ledYellow = 7; // Pino do LED amarelo dos carros
+                int ledGreen = 8; // Pino do LED verde dos carros
+                int button = 9; // Pino do botão
+                int buzzer = 10; // Pino do buzzer
+
+                int pedestrianRed = 1; // Pino do LED vermelho do pedestre
+                int pedestrianGreen = 13; // Pino do LED verde do pedestre
+
+                int value = 0; // Variável para armazenar o valor lido do botão
+
+                void greenCars() {
+                digitalWrite(ledRed, LOW); // Desliga o LED vermelho dos carros
+                digitalWrite(ledYellow, LOW); // Desliga o LED amarelo dos carros
+                digitalWrite(ledGreen, HIGH); // Liga o LED verde dos carros
+                digitalWrite(pedestrianRed, HIGH); // Liga o LED vermelho do pedestre
+                digitalWrite(pedestrianGreen, LOW); // Desliga o LED verde do pedestre
+                }
+
+                void yellowCars() {
+                digitalWrite(ledRed, LOW); // Desliga o LED vermelho dos carros
+                digitalWrite(ledGreen, LOW); // Desliga o LED verde dos carros
+                for (int i = 0; i < 11; i++) { digitalWrite(ledYellow, HIGH); // Liga o LED amarelo dos carros
+                    delay(300); digitalWrite(ledYellow, LOW); // Desliga o LED amarelo dos carros delay(300); } } void
+                    redCars() { digitalWrite(ledYellow, LOW); // Desliga o LED amarelo dos carros digitalWrite(ledRed,
+                    HIGH); // Liga o LED vermelho dos carros digitalWrite(pedestrianRed, LOW); // Desliga o LED vermelho
+                    do pedestre digitalWrite(pedestrianGreen, HIGH); // Liga o LED verde do pedestre for (int i=0; i <
+                    20; i++) { tone(buzzer, 500); // Ativa o buzzer com frequência de 500Hz delay(200); noTone(buzzer);
+                    // Desativa o buzzer delay(100); } for (int i=0; i < 11; i++) { digitalWrite(pedestrianGreen, HIGH);
+                    // Liga o LED verde do pedestre tone(buzzer, 1000); // Ativa o buzzer com frequência de 1000Hz
+                    delay(300); digitalWrite(pedestrianGreen, LOW); // Desliga o LED verde do pedestre noTone(buzzer);
+                    // Desativa o buzzer delay(300); } } void setup() { pinMode(button, INPUT); // Define o pino do
+                    botão como entrada pinMode(ledRed, OUTPUT); // Define o pino do LED vermelho dos carros como saída
+                    pinMode(ledYellow, OUTPUT); // Define o pino do LED amarelo dos carros como saída pinMode(ledGreen,
+                    OUTPUT); // Define o pino do LED verde dos carros como saída pinMode(buzzer, OUTPUT); // Define o
+                    pino do buzzer como saída pinMode(pedestrianRed, OUTPUT); // Define o pino do LED vermelho do
+                    pedestre como saída pinMode(pedestrianGreen, OUTPUT); // Define o pino do LED verde do pedestre como
+                    saída } void loop() { greenCars(); // Chama a função para os carros ficarem com o sinal verde
+                    value=digitalRead(button); // Lê o estado do botão if (value==HIGH) { yellowCars(); // Chama a
+                    função para os carros ficarem com o sinal amarelo redCars(); // Chama a função para os carros
+                    ficarem com o sinal vermelho value==LOW; // Reseta o estado do botão } } </p>
         </div>
-        <img class="fotoprojeto" src=".\projetopush.png" alt="fotoprojetopushbutton">
-    </section>
-    <section class="proje">
-     <div class="proje">
-        <p>
-            Nós também fizemos um projeto para aprendermos como funciona e para que serve o buzzer. Ele basicamente
-            tranforma a energia que passa por ele em sons, utilizando ele conseguimos reproduzir até mesmo melodias
-            de músicas.
-        </p>
-        <img class="fotoprojeto" src=".\projetobuzzer.png" alt="fotodoprojetobuzzer">
-     </div>
     </section>
     <footer>
         Site criado em abril de 2023, por Guilherme Soares Cordeiro, Mahara Machado Pereira, João Eduardo Santos Sens e
