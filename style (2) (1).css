@@ -255,8 +255,7 @@ input[type=submit]{
 .fotoprojeto2 {
     width: 40%;
     padding: 0px 10px;
-    display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
 
 }
