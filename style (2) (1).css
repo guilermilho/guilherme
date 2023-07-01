@@ -60,7 +60,9 @@ header {
 
 .fotoprojeto {
     width: 40%;
-    padding: 0px 50px;
+    padding: 0px 10px;
+    display: flex;
+    text-align: center;
 
 }
 
