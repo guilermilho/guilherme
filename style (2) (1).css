@@ -251,9 +251,3 @@ input[type=submit]{
     z-index: 10;
 }
 
-.fotoprojeto2 {
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
