@@ -253,3 +253,259 @@
     }    
     
 }
+@media screen and (max-width: 1066px){
+        html {
+            background-color: #9e9e9efa;
+        }
+        
+        header {
+            background-color: #5f8690fa;
+            color: rgb(0, 0, 0);
+            align-items: center;
+            justify-content: center;
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            font-size: 30px;
+        }
+        
+        .search-form {
+            text-align: center;
+          }
+          
+          input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #d8d6d6;
+            border-radius: 4px;
+            width: 300px;
+          }
+          
+          button[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #5f8690fa;
+            color: #000000;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+          }
+        
+        .cabeçalho2 {
+            width: 45%;
+        }
+        
+        .seção1 {
+            width: 15%;
+            padding: 0px 50px 0px 50px;
+        }
+        
+        .H22 a {
+            display: flex;
+            font-size: 30px;
+            text-decoration: none;
+            color: black;
+            
+        }
+        
+        .H23 {
+            display: grid;
+            padding: 10px;
+            text-align: center;
+            grid-template-columns: 33% 33% 33%;
+        }
+        
+        .fotoprojeto {
+            width: 40%;
+            padding: 0px 50px;
+        }
+        
+        .proje {
+            margin: 25px 90px;
+            text-align: center;
+            font-size: 30px;
+        }
+        
+        #equi {
+            text-align: center;
+        
+        }
+        
+        .nomes1 {
+            align-items: center;
+            justify-content: center;
+            display: grid;
+            grid-template-columns: 19% 22% 22% 18%;
+        
+        }
+        
+        .textofoto {
+            align-items: center;
+            justify-content: center;
+            display: grid;
+            grid-template-columns: 25% 25% 25% 18%;
+            font-size: 25px;
+        }
+        
+        .tituloequipe {
+            font-size: 40px;
+        }
+        
+        footer {
+            text-align: center;
+            background-color: #5f8690fa;
+        }
+        
+        .fotobio {
+            width: 30%;
+            padding: 0px 50px;
+        
+        }
+        
+        .fotocachorroempresario {
+            width: 50%;
+            padding: 0px 50px;
+        
+        }
+        .formulario{
+            padding: 30px;
+            border:1px solid #9e9e9efa;
+            background-color: #757575;
+        }
+        .formulario p{
+            width: 100%;
+            font-size: 1.5em;
+            text-align: center;
+        }
+        .field{
+            width: 100%;
+            margin: 15px 0;
+        }
+        .field label, 
+        .field span{
+            padding-left: 10px;
+            font-size: 1.1em;
+            display: block;
+            width: 100%;
+        }
+        .radiobox label{
+            width: auto;
+            display: inline-block;
+        }
+        input[type=text],
+        input[type=email],
+        textarea{
+            width: 100%;
+            padding-left: 10px;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 15px;
+            border: 1px solid #ccc;
+            outline: none;
+        }
+        input#nao{
+            margin-left: 30px;
+        }
+        textarea{
+            line-height: 20px;
+            padding: 10px;
+            height: 90px;
+            resize: none;
+        }
+        input[type=submit]{
+            display: block;
+            background-color: #ccc;
+            height: 35px;
+            border: none;
+            outline: 0;
+            cursor: pointer;
+            width: 100px;
+            margin: 0 auto;
+            text-align: center;
+            border-radius: 15px;
+        }
+        .bloco1{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px;
+        }
+        .bloco{
+            padding-right: 10px;
+        }
+        
+        .funcoes {
+            align-items: center;
+            justify-content: center;
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            text-align: center;
+            font-size: 30px;
+        }
+        .tituf{
+            text-align: center;
+            font-size: 20px;
+        }
+        #proje {
+            margin: 25px 90px;
+            text-align: center;
+            display: flex;
+            font-size: 30px;
+        }
+        .slider {
+        
+            display: flex;
+            justify-content: center;
+            height: 390px;
+        }
+        
+        .slider li {
+            list-style: none;
+            position: absolute;
+        }
+        
+        .slider img {
+            margin: auto;
+            height: 100%;
+            width: 100%;
+            vertical-align: top;
+        }
+        
+        .slider input {
+            display: none;
+        }
+        
+        .slider label {
+            background-color: #ccc;
+            bottom: 10px;
+            cursor: pointer;
+            display: block;
+            height: 10px;
+            position: absolute;
+            width: 10px;
+            z-index: 10;
+        }
+        
+        .slider li:nth-child(1) label {
+            left: 10px;
+        }
+        
+        .slider li:nth-child(2) label {
+            left: 40px;
+        }
+        
+        .slider li:nth-child(3) label {
+            left: 70px;
+        }
+        
+        .slider img {
+            opacity: 0;
+            visibility: hidden;
+        }
+        
+        .slider li input:checked ~ img {
+            opacity: 1;
+            visibility: visible;
+            z-index: 10;
+        }    
+        
+    }
+        
