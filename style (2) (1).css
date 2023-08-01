@@ -83,14 +83,6 @@
     
     }
     
-    .textofoto {
-        align-items: center;
-        justify-content: center;
-        display: grid;
-        grid-template-columns: 25% 25% 25% 18%;
-        font-size: 25px;
-    }
-    
     .tituloequipe {
         font-size: 40px;
     }
