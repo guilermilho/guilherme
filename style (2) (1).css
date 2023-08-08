@@ -275,4 +275,10 @@
         .jj {
             width: 100vw;
         }
+        .nomes1 {
+            align-items: center;
+            justify-content: center;
+            grid-template-columns: 19% 22% 22% 18%;
+            width: 100%
+        }
     }
