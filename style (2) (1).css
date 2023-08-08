@@ -205,6 +205,7 @@
         display: flex;
         justify-content: center;
         height: 390px;
+        padding: 0, 0, 50px, 0;
     }
 
     .slider li {
