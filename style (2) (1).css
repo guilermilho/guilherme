@@ -284,6 +284,8 @@
             color: rgb(0, 0, 0);
             align-items: center;
             justify-content: center;
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
             font-size: 30px;
         }
     
