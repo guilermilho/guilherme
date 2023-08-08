@@ -267,8 +267,10 @@
             padding: 0;
             width: 100vw;
         }
+        .slider img {
+            width: 100vw;
+        }
         .jj {
             width: 100vw;
         }
- 
     }
