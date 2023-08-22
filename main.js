@@ -1,2 +1,2 @@
-alert('A Mahara eh lerda')
+alert('Atualizando...')
 document.querySelector('button')
