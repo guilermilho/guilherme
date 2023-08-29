@@ -296,3 +296,8 @@
           cursor: pointer;
           border-color: white;
     }
+    .teclado{
+        align-items: center;
+        display: flex;
+        font-size: medium;
+    }
