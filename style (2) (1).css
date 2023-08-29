@@ -297,7 +297,7 @@
           border-color: white;
     }
     .teclado{
-        background-color: #5f8690fa;
+        background-color: #5f8690c9;
         display: grid; gap: 10px; padding: 10px;
         grid-template-columns: repeat(3,1fr);
     }
