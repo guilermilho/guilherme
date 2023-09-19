@@ -6,8 +6,10 @@ const ListaDeSons = document.querySelectorAll('.tecla');
 
 let Contador = 0;
 
-while (Contador < 9) {
-    ListaDeSons[0].onclick = TocaSomPom;  
+while (Contador <ListaDeSons.length) {
+    lista[contador].onclick = function(){
+        tocar('#som_tecla_toin');
+    }
     Contador = Contador + 1;
     console.log(Contador);
 }
