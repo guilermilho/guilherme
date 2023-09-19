@@ -10,7 +10,7 @@ const classe = lista[contador].classList[1];
 console.log(classe)
 
 while (Contador <ListaDeSons.length) {
-    lista[contador].onclick = function(){
+    lista[Contador].onclick = function(){
         tocar('#som_tecla_toin');
     }
     Contador = Contador + 1;
