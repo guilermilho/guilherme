@@ -22,9 +22,9 @@ while (Contador < lista.length) {
     //console.log(Contador);
 
     tecla.onkeydown = function (){
-tecla.ClassList.add('ativa');
+tecla.classList.add('ativa');
     }
     tecla.onkeyup = function(){
-tecla.ClassLista.remove('ativa');
+tecla.classList.remove('ativa');
 }
 }
