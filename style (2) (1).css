@@ -307,7 +307,7 @@
         padding: 40px;
     }
     .tecla.ativa,
-    .tecla.active{
+    .tecla:active{
         background-color: red; color: #d0ff00; outline: none;
     }
     .tecla.focus,
