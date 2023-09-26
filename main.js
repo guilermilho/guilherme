@@ -10,7 +10,7 @@ while (Contador < lista.length) {
     const classe = Lista[Contador].classList[1];
     //console.log(classe);
 
-    const idSom = `#som_${classe}`:
+    const idSom = `#som_${classe}`;
     //console.log(idSom);
 
     lista[Contador].onclick = function(){
