@@ -7,7 +7,7 @@ const lista = document.querySelectorAll('.tecla');
 let Contador = 0;
 
 while (Contador < lista.length) {
-    const tecla = lista[Contador]
+    const tecla = lista[Contador];
     const classe = tecla.classList[1];
     //console.log(classe);
 
@@ -25,6 +25,6 @@ while (Contador < lista.length) {
 tecla.ClassList.add('ativa');
     }
     tecla.onkeyup = function(){
-tecla.ClassLista.remove(ativa);
+tecla.ClassLista.remove('ativa');
 }
 }
