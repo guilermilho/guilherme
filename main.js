@@ -6,13 +6,17 @@ const ListaDeSons = document.querySelectorAll('.tecla');
 
 let Contador = 0;
 
-const classe = Lista[Contador].classList[1];
-console.log(classe)
+while (Contador < lista.length) {
+    const classe = Lista[Contador].classList[1];
+    //console.log(classe);
 
-while (Contador <ListaDeSons.length) {
+    const idSom = `#som_${classe}`:
+    //console.log(idSom);
+
     lista[Contador].onclick = function(){
-        tocar('#som_tecla_toin');
+        tocar(idSom);
     }
+    
     Contador = Contador + 1;
-    console.log(Contador);
+    //console.log(Contador);
 }
