@@ -308,7 +308,7 @@
     }
     .tecla.ativa
     .tecla.active{
-        background-color: #003cff; color: #d0ff00; outline: none;
+        background-color: red; color: #d0ff00; outline: none;
     }
     .tecla.focus
     .tecla:focus{
