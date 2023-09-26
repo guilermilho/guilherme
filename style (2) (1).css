@@ -306,11 +306,11 @@
         background-color: #757575; color: #000000;
         padding: 40px;
     }
-    .tecla.ativa
+    .tecla.ativa,
     .tecla.active{
         background-color: red; color: #d0ff00; outline: none;
     }
-    .tecla.focus
+    .tecla.focus,
     .tecla:focus{
         outline: none; box-shadow: 1px 1px 10px #ff0000;
     }
