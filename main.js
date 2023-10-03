@@ -1,4 +1,4 @@
-function tocar (){
+function tocar() {
     document.querySelector('#som_tecla_pom').play();
 }
 
@@ -14,20 +14,20 @@ while (Contador < lista.length) {
     const idSom = `#som_${classe}`;
     //console.log(idSom);
 
-    tecla.onclick = function(){
+    tecla.onclick = function () {
         tocar(idSom);
     }
-    
+
     Contador = Contador + 1;
     //console.log(Contador);
 
-    tecla.onkeydown = function (evento){
-if(evento.code === 'Space' || evento.code === 'Enter');{
-tecla.classList.add('ativa');
-//console.log(evento.code === 'Space' || evento.code === 'Enter');
+    tecla.onkeydown = function (evento) {
+        if (evento.code === 'Space' || evento.code === 'Enter') {
+            tecla.classList.add('ativa');
+            //console.log(evento.code === 'Space' || evento.code === 'Enter');
+        }
     }
+    tecla.onkeyup = function () {
+        tecla.classList.remove('ativa');
     }
-    tecla.onkeyup = function(){
-tecla.classList.remove('ativa');
-}
 }
