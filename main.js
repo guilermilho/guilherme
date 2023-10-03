@@ -21,7 +21,7 @@ while (Contador < lista.length) {
     Contador = Contador + 1;
     //console.log(Contador);
 
-    tecla.onkeydown = function (){
+    tecla.onkeydown = function (evento){
 tecla.classList.add('ativa');
 console.log(evento.code === 'Space' || evento.code === 'Enter');
     }
