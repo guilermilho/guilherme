@@ -10,15 +10,40 @@
 
 <body>
     <header class="cabeçalho1">
+      <nav role="navigation">
+  <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+    
+    <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+    <ul id="menu">
+      <a href="#"><li>Robótica</li></a>
+      <a href="#"><li>Empreendedorismo</li></a>
+      <a href="#"><li>Biotecnologia</li></a>
+      <a href="#"><li>Programação</li></a>
+    </ul>
+  </div>
+</nav>
         <link rel="stylesheet" href="style (2) (1).css">
         <img class="cabeçalho2" src=".\logocep.png" alt="logocep">
         <h1>Trabalho 2°I</h1>
-        <ul class="H22">
-            <li class="H23"> <a href=fisica.html>Robótica</a></li>
-            <li class="H23"> <a href=biotecnologia.html>Biotecnologia</a></li>
-            <li class="H23"> <a href=matematica1.html>Empreendedorismo</a></li>
-            <li class="H23"> <a href=programação.html>Programação</a></li>
-        </ul>
+        
         </div>
     </header>
     <form action="#" method="get" class="search-form">
@@ -107,7 +132,7 @@
         <input type="submit" name="acao" value="Enviar">
     </form>
 <footer>
-    Site criado em abril de 2023, por Guilherme Soares Cordeiro, Mahara Machado Pereira, João Eduardo Santos Sens e Ana
+    Site criado em abril de 2023, por Guilherme Soares Cordeiro, Mahara Machado Pereira, Nathan (frances) e Ana
     Jullia Modesto.
 </footer>
 </body>
