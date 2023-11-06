@@ -476,6 +476,7 @@ body {
   .page-title {
     color: #ffffff;
     margin: 0 0 5px;
+    background-color: #202020;
   }
   
   .page-subtitle {
@@ -502,7 +503,6 @@ body {
 .espaçamento {
   margin: 0 auto;
   height: 15px;px;
-  background-color: #202020;
 }
 
 .calculadora {
