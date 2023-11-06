@@ -4,9 +4,7 @@ function tocar() {
 
 const lista = document.querySelectorAll('.tecla');
 
-let Contador = 0;
-
-for (Contador < lista.length) {
+while (Contador < lista.length) {
     const tecla = lista[Contador];
     const classe = tecla.classList[1];
     //console.log(classe);
