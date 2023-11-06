@@ -509,7 +509,6 @@ body {
 .calculadora {
   margin: 0 auto;
   width: 294px;
-  background-color: black;
   border: 1px solid #ddd;
 }
 
@@ -520,7 +519,6 @@ body {
   height: 60px;
   padding-right: 15px;
   padding-top: 10px;
-  background-color: #202020;
   text-align: right;
   margin-right: 6px;
   font-size: 2.5rem;
@@ -539,7 +537,6 @@ body {
   padding: 10px;
   margin: 20px 4px 10px 0;
   cursor: pointer;
-  background-color: #202020;
   transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
 }
 
@@ -557,7 +554,6 @@ body {
   padding: 10px;
   margin: 10px 4px 10px 0;
   cursor: pointer;
-  background-color: #202020;
   transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
 }
 
@@ -572,6 +568,5 @@ body {
   vertical-align: top;
   cursor: pointer;
   color: #FFF;
-  background-color: #202020;
   transition: all .2s ease-in-out;
 }
