@@ -541,7 +541,7 @@ body {
 
 .painel-numeros {
   display: inline-block;
-  
+  background-color: #202020;
 }
 
 .numeros div {
