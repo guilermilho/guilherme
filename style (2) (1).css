@@ -567,4 +567,5 @@ body {
   cursor: pointer;
   color: #FFF;
   transition: all .2s ease-in-out;
+  background-color: #000000;
 }
