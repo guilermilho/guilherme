@@ -502,6 +502,7 @@ body {
 .espaçamento {
   margin: 0 auto;
   height: 15px;px;
+  background-color: #202020;
 }
 
 .calculadora {
