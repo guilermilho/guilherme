@@ -15,10 +15,7 @@ while (Contador < lista.length) {
     tecla.onclick = function () {
         tocar(idSom);
     }
-
-    Contador = Contador + 1;
-    //console.log(Contador);
-
+    
     tecla.onkeydown = function (evento) {
         if (evento.code === 'Space' || evento.code === 'Enter') {
             tecla.classList.add('ativa');
