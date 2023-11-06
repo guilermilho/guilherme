@@ -403,7 +403,6 @@ transform-origin: 0% 100%;
 {
 opacity: 1;
 transform: rotate(45deg) translate(-2px, -1px);
-background: #232323;
 }
 
 /*
@@ -463,7 +462,6 @@ transform: none;
 body {
     font-family: 'Roboto Mono',monospace;
     background-image: url('https://cdn.discordapp.com/attachments/468228661418524673/823877228315541544/unknown.png');
-    background-color: #000000;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
