@@ -523,6 +523,7 @@ body {
   color: white;
   overflow-x: auto;
   transition: all .2s ease-in-out;
+  background-color: #202020;
 }
 
 .contas div {
@@ -540,6 +541,7 @@ body {
 
 .painel-numeros {
   display: inline-block;
+  
 }
 
 .numeros div {
@@ -553,6 +555,7 @@ body {
   margin: 10px 4px 10px 0;
   cursor: pointer;
   transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  background-color: #202020;
 }
 
 .igual {
@@ -567,5 +570,5 @@ body {
   cursor: pointer;
   color: #FFF;
   transition: all .2s ease-in-out;
-  background-color: #000000;
+  background-color: #202020;
 }
