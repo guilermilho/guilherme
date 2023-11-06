@@ -4,8 +4,8 @@ function tocar() {
 
 const lista = document.querySelectorAll('.tecla');
 
-while (Contador < lista.length) {
-    const tecla = lista[Contador];
+while (contador < lista.length) {
+    const tecla = lista[contador];
     const classe = tecla.classList[1];
     //console.log(classe);
 
@@ -15,7 +15,7 @@ while (Contador < lista.length) {
     tecla.onclick = function () {
         tocar(idSom);
     }
-    
+
     tecla.onkeydown = function (evento) {
         if (evento.code === 'Space' || evento.code === 'Enter') {
             tecla.classList.add('ativa');
