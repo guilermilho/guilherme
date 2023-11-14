@@ -471,7 +471,7 @@ body {
     text-align: center;
     padding: 20px;
     height: 100vh;
-    background-color: #ffffff;
+    background-color: #000000;
   }
   
   .page-title {
@@ -509,7 +509,7 @@ body {
   margin: 0 auto;
   width: 294px;
   border: 1px solid #ddd;
-  background-color: #202020;
+  background-color: #ffffff;
 }
 
 .tela {
