@@ -461,6 +461,7 @@ transform: none;
 
 body {
     font-family: 'Roboto Mono',monospace;
+    background-image: url('https://cdn.discordapp.com/attachments/468228661418524673/823877228315541544/unknown.png');
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -470,7 +471,7 @@ body {
     text-align: center;
     padding: 20px;
     height: 100vh;
-    background-color: #000000;
+    background-color: #ffffff;
   }
   
   .page-title {
