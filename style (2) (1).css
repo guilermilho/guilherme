@@ -525,7 +525,7 @@ body {
   color: black;
   overflow-x: auto;
   transition: all .2s ease-in-out;
-  background-color: #black;
+  background-color: #000000;
 }
 
 .contas div {
