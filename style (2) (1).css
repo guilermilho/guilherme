@@ -1,578 +1,71 @@
-html {
-    background-color: #9e9e9efa;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
 header {
-    background-color: #5f8690fa;
-    color: rgb(0, 0, 0);
-    align-items: center;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    font-size: 30px;
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
 }
 
-.search-form {
-    text-align: center;
+header h1 {
+    float: left;
+    margin-top: 0;
 }
 
-input[type="text"] {
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #d8d6d6;
-    border-radius: 4px;
-    width: 300px;
+header nav {
+    float: right;
+    margin-top: 10px;
 }
 
-button[type="submit"] {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #5f8690fa;
-    color: #000000;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-.cabeçalho2 {
-    width: 45%;
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
 }
 
-.seção1 {
-    width: 55%;
-    padding: 0px 50px 0px 50px;
-}
-
-.H22 a {
-    display: flex;
-    font-size: 30px;
+header nav ul li a {
+    color: #ffffff;
     text-decoration: none;
-    color: black;
-
+    font-weight: bold;
 }
 
-.H23 {
-    display: grid;
-    padding: 10px;
-    text-align: center;
-    grid-template-columns: 33% 33% 33%;
+section {
+    padding: 20px 0;
+    border-bottom: 1px solid #cccccc;
 }
 
-.fotoprojeto {
-    width: 40%;
-    padding: 0px 50px;
-}
-
-.proje {
-    margin: 25px 90px;
-    text-align: left;
-    font-size: 30px;
-}
-
-#equi {
-    text-align: center;
-
-}
-
-.nomes1 {
-    align-items: center;
-    justify-content: center;
-    width: 100%
-}
-
-.tituloequipe {
-    font-size: 40px;
-    margin-top: 150px;
+section h2 {
+    margin-bottom: 10px;
+    color: #e8491d;
 }
 
 footer {
-    text-align: center;
-    background-color: #5f8690fa;
-}
-
-.fotobio {
-    width: 30%;
-    padding: 0px 50px;
-
-}
-
-.fotocachorroempresario {
-    width: 50%;
-    padding: 0px 50px;
-
-}
-
-.formulario {
-    padding: 30px;
-    border: 1px solid #9e9e9efa;
-    background-color: #757575;
-}
-
-.formulario p {
-    width: 100%;
-    font-size: 1.5em;
-    text-align: center;
-}
-
-.field {
-    width: 100%;
-    margin: 15px 0;
-}
-
-.field label,
-.field span {
-    padding-left: 10px;
-    font-size: 1.1em;
-    display: block;
-    width: 100%;
-}
-
-.radiobox label {
-    width: auto;
-    display: inline-block;
-}
-
-input[type=text],
-input[type=email],
-textarea {
-    width: 100%;
-    padding-left: 10px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 15px;
-    border: 1px solid #ccc;
-    outline: none;
-}
-
-input#nao {
-    margin-left: 30px;
-}
-
-textarea {
-    line-height: 20px;
-    padding: 10px;
-    height: 90px;
-    resize: none;
-}
-
-input[type=submit] {
-    display: block;
-    background-color: #ccc;
-    height: 35px;
-    border: none;
-    outline: 0;
-    cursor: pointer;
-    width: 100px;
-    margin: 0 auto;
-    text-align: center;
-    border-radius: 15px;
-}
-
-.bloco1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-}
-
-.bloco {
-    padding-right: 10px;
-}
-
-.funcoes {
-    align-items: center;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    text-align: center;
-    font-size: 30px;
-}
-
-.tituf {
-    text-align: center;
-    font-size: 40px;
-}
-
-#proje {
-    margin: 25px 90px;
-    text-align: left;
-    display: flex;
-    font-size: 30px;
-}
-
-.slider {
-
-    display: flex;
-    justify-content: center;
-    height: 390px;
-    padding: 0px, 0px, 50px, 0px;
-}
-
-.slider li {
-    list-style: none;
-    position: absolute;
-}
-
-.slider img {
-    margin: auto;
-    height: 100%;
-    width: 100%;
-    vertical-align: top;
-}
-
-.slider input {
-    display: none;
-}
-
-.slider label {
-    background-color: #ff0000;
-    bottom: 10px;
-    cursor: pointer;
-    display: block;
-    height: 10px;
-    position: absolute;
-    width: 10px;
-    z-index: 10;
-}
-
-.slider li:nth-child(1) label {
-    left: 10px;
-}
-
-.slider li:nth-child(2) label {
-    left: 40px;
-}
-
-.slider li:nth-child(3) label {
-    left: 70px;
-}
-
-.slider li:nth-child(4) label {
-    left: 100px;
-}
-
-.slider img {
-    opacity: 0;
-    visibility: hidden;
-}
-
-.slider li input:checked~img {
-    opacity: 1;
-    visibility: visible;
-    z-index: 10;
-}
-
-@media screen and (max-width: 1066px) {
-    .slider {
-        margin: 0;
-        padding: 0;
-        width: 100vw;
-        height: 75vw;
-    }
-    .slider img {
-        width: 100vw;
-    }
-    .jj {
-        width: 100vw;
-    }
-    .nomes1 {
-        align-items: center;
-        justify-content: center;
-        width: 100%
-    }
-    header {
-        background-color: #5f8690fa;
-        color: rgb(0, 0, 0);
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        font-size: 30px;
-    }
-
-}
-.button1 {
-    padding: 40px 30px;
-     border-radius: 30px;
-      box-shadow: 3px 3px 0 gray;
-      cursor: pointer;
-      border-color: white;
-}
-.teclado{
-    background-color: #5f8690fa;
-    display: grid; gap: 10px; padding: 10px;
-    grid-template-columns: repeat(3,1fr);
-    border: none;
-}
-.tecla{
-    background-color: #757575; color: #000000;
-    padding: 40px;
-}
-.tecla.ativa,
-.tecla:active{
-    background-color: red; color: #d0ff00; outline: none;
-}
-.tecla.focus,
-.tecla:focus{
-    outline: none; box-shadow: 1px 1px 10px #ff0000;
-}
-
-.tecla.active:focus, .tecla.tecla.active:focus{
-    box-shadow: 3px 3px 0 #ff00bf;
-}
-#menuToggle
-{
-display: block;
-position: relative;
-top: 50px;
-left: 50px;
-
-z-index: 1;
-
--webkit-user-select: none;
-user-select: none;
-}
-
-#menuToggle a
-{
-text-decoration: none;
-color: #232323;
-
-transition: color 0.3s ease;
-}
-
-#menuToggle a:hover
-{
-color: tomato;
-}
-
-
-#menuToggle input
-{
-display: block;
-width: 40px;
-height: 32px;
-position: absolute;
-top: -7px;
-left: -5px;
-
-cursor: pointer;
-
-opacity: 0; /* hide this */
-z-index: 2; /* and place it over the hamburger */
-
--webkit-touch-callout: none;
-}
-
-/*
-* Just a quick hamburger
-*/
-#menuToggle span
-{
-display: block;
-width: 33px;
-height: 4px;
-margin-bottom: 5px;
-position: relative;
-
-background: #cdcdcd;
-border-radius: 3px;
-
-z-index: 1;
-
-transform-origin: 4px 0px;
-
-transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-          background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-          opacity 0.55s ease;
-}
-
-#menuToggle span:first-child
-{
-transform-origin: 0% 0%;
-}
-
-#menuToggle span:nth-last-child(2)
-{
-transform-origin: 0% 100%;
-}
-
-/* 
-* Transform all the slices of hamburger
-* into a crossmark.
-*/
-#menuToggle input:checked ~ span
-{
-opacity: 1;
-transform: rotate(45deg) translate(-2px, -1px);
-}
-
-/*
-* But let's hide the middle one.
-*/
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
-opacity: 0;
-transform: rotate(0deg) scale(0.2, 0.2);
-}
-
-/*
-* Ohyeah and the last one should go the other direction
-*/
-#menuToggle input:checked ~ span:nth-last-child(2)
-{
-transform: rotate(-45deg) translate(0, -1px);
-}
-
-/*
-* Make this absolute positioned
-* at the top left of the screen
-*/
-#menu
-{
-position: absolute;
-width: 300px;
-margin: -100px 0 0 -50px;
-padding: 50px;
-padding-top: 125px;
-
-background: #ededed;
-list-style-type: none;
--webkit-font-smoothing: antialiased;
-/* to stop flickering of text in safari */
-
-transform-origin: 0% 0%;
-transform: translate(-100%, 0);
-
-transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-}
-
-#menu li
-{
-padding: 10px 0;
-font-size: 22px;
-}
-
-/*
-* And let's slide it in from the left
-*/
-#menuToggle input:checked ~ ul
-{
-transform: none;
-}
-
-body {
-    font-family: 'Roboto Mono',monospace;
-    background-image: url('https://cdn.discordapp.com/attachments/468228661418524673/823877228315541544/unknown.png');
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-  }
-  
-  .container {
-    text-align: center;
-    padding: 20px;
-    height: 100vh;
-    background-color: #000000;
-  }
-  
-  .page-title {
+    background: #35424a;
     color: #ffffff;
-    margin: 0 0 5px;
-  }
-  
-  .page-subtitle {
-    color: #ffffff;
-    margin-top: 5px;
-  }
-  
-  .page-logo {
-    width: 200px;
-  }
-  
-  .alura-logo {
-    width: 40px;
-    position: absolute;
-    top: 10px;
-    right:10px;
-  }
-
-  *:focus {
-    outline: 0 !important;
-  }
-
-
-.espaçamento {
-  margin: 0 auto;
-  height: 15px;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
 }
 
-.calculadora {
-  margin: 0 auto;
-  width: 294px;
-  border: 1px solid #ddd;
-  background-color: #202020;
-}
-
-.tela {
-  width: 279px;
-  border: 0;
-  border-radius: 1px;
-  height: 60px;
-  padding-right: 15px;
-  padding-top: 10px;
-  text-align: right;
-  margin-right: 6px;
-  font-size: 2.5rem;
-  color: rgb(255, 255, 255);
-  overflow-x: auto;
-  transition: all .2s ease-in-out;
-  background-color: #000000;
-}
-
-.contas div {
-  color: white;
-  display: inline-block;
-  border: 0;
-  border-radius: 1px;
-  width: 40px;
-  text-align: center;
-  padding: 10px;
-  margin: 20px 4px 10px 0;
-  cursor: pointer;
-  transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
-  background-color: #202020;
-}
-
-.painel-numeros {
-  display: inline-block;
-  background-color: #202020;
-}
-
-.numeros div {
-  color: white;
-  display: inline-block;
-  border: 0;
-  border-radius: 1px;
-  width: 40px;
-  text-align: center;
-  padding: 10px;
-  margin: 10px 4px 10px 0;
-  cursor: pointer;
-  transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
-  background-color: #202020;
-}
-
-.igual {
-  display: inline-block;
-  border: 0;
-  border-radius: 1px;
-  width: 40px;
-  text-align: center;
-  padding: 102px 10px;
-  margin: 10px 6px 10px 0;
-  vertical-align: top;
-  cursor: pointer;
-  color: #FFF;
-  background-color: #202020;
-  transition: all .2s ease-in-out;
-  
+footer p {
+    margin: 0;
 }
