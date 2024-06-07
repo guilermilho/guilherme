@@ -1,10 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #f4f4f4;
     color: #333;
+    line-height: 1.6;
 }
 
 .container {
@@ -14,16 +15,17 @@ body {
 }
 
 header {
-    background: #35424a;
+    background: #4CAF50;
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #e8491d 3px solid;
+    border-bottom: #388E3C 3px solid;
 }
 
 header h1 {
     float: left;
     margin-top: 0;
+    font-size: 24px;
 }
 
 header nav {
@@ -46,26 +48,72 @@ header nav ul li a {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+header nav ul li a:hover {
+    background: #388E3C;
 }
 
 section {
-    padding: 20px 0;
+    padding: 40px 0;
     border-bottom: 1px solid #cccccc;
+    background: #ffffff;
+    text-align: center;
+}
+
+section:nth-of-type(even) {
+    background: #f9f9f9;
 }
 
 section h2 {
-    margin-bottom: 10px;
-    color: #e8491d;
+    margin-bottom: 20px;
+    color: #4CAF50;
+    font-size: 28px;
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
 footer {
-    background: #35424a;
+    background: #4CAF50;
     color: #ffffff;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
     margin-top: 20px;
+    border-top: #388E3C 3px solid;
 }
 
 footer p {
     margin: 0;
+}
+
+button {
+    display: inline-block;
+    background: #4CAF50;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #388E3C;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.gallery img {
+    width: 30%;
+    margin: 1.5%;
 }
